@@ -1,0 +1,76 @@
+
+/* service */
+.service-box{
+    width: 270px;
+    background-color: #08405f;
+    overflow: hidden;
+}
+.service-box p{
+    display: none;
+}
+.service-box:hover p{
+    display: block;
+}
+.service-box:hover .service-pic{
+    /* background-color: #18D2F5; */
+    background-color: white;
+    transition: 1s;
+}
+.service-box:hover{
+    background-color: #0e3c55; 
+    transition: 1s; 
+}
+.service-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#0e3c55;
+}
+
+
+
+/*contact us */
+.contact_us_heading,.service_heading,.work-heading{
+    letter-spacing: 2px;
+}
+.address-box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#0e3c55;
+    overflow: hidden;
+}
+.contact_social_box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+
+.footer-bg{
+    background-color: #08405f;
+}
+.text-orange{
+    color: #FF2562;
+}
+.text-gray{
+    color: rgb(172, 168, 168);
+}
+.text-link:hover small{
+ color: gray;
+}
+.social-box{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

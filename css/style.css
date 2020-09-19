@@ -1,0 +1,128 @@
+.default-bg {
+    background-color: #0e3c55;
+}
+
+.navbar-bg {
+    background-color: #0e3c55;
+}
+
+.font-fredoka {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+
+/* navbar */
+.link:before{
+    content: '';
+    background-color: #18D2F5;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    bottom: 0;
+    transition: all 0.3s ease 0s;
+}
+.link:hover:before{ width: 5%; }
+.active:before{
+    width: 4.5%;
+}
+
+
+
+/* start enquiry-section form coding */
+@media screen and (max-width: 767px) {
+    .enquiry-section {
+        width: 250px;
+        top: 5%;
+        left: 5%;
+        padding: 35px;
+    }
+    .carousel{
+        margin-top:65px ;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .carousel{
+        height:70vh; 
+        overflow:hidden;
+        margin-top: 60px;
+    }
+    .enquiry-section {
+        width: 340px;
+        top: 12%;
+        right: 5%;
+        padding: 35px;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+
+.enquiry-section {
+    background-color:rgba(27, 19, 102, 0.527);;
+    border-radius: 20px;
+}
+
+.enquiry-section input {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.enquiry-section textarea {
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+}
+
+.enquiry-section input:focus {
+    background-color: white;
+    box-shadow: none !important;
+    outline: none !important;
+    color: black;
+}
+
+.enquiry-section textarea:focus {
+    background-color: white;
+    box-shadow: none !important;
+    outline: none !important;
+    color: black;
+}
+
+.enquiry-section input::placeholder {
+    color: black;
+    opacity: 1;
+    /* Firefox */
+}
+
+.enquiry-section textarea::placeholder {
+    color: black;
+    opacity: 1;
+    /* Firefox */
+}
+
+.enquiry-section input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black;
+}
+
+.enquiry-section textarea:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: black;
+}
+
+.enquiry-section input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black;
+}
+
+.enquiry-section textarea::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black;
+}
+
+/* end enquiry-section form coding */
